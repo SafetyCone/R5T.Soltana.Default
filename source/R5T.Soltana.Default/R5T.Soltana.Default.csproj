@@ -3,5 +3,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Dacia.Extensions\source\R5T.Dacia.Extensions\R5T.Dacia.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Hladir.Base\source\R5T.Hladir.Base\R5T.Hladir.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Koping.Base\source\R5T.Koping.Base\R5T.Koping.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Solgene.Base\source\R5T.Solgene.Base\R5T.Solgene.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Soltana.Base\source\R5T.Soltana.Base\R5T.Soltana.Base.csproj" />
+  </ItemGroup>
 </Project>
