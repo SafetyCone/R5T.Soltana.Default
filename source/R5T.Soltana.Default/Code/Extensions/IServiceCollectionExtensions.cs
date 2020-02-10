@@ -28,6 +28,11 @@ namespace R5T.Soltana.Default
                 .RunServiceAction(addSolutionFolderProjectTypeGuidProvider)
                 .RunServiceAction(addProjectFileNameConventions)
                 .RunServiceAction(addStringlyTypedPathOperator)
+
+                // Extra services.
+                .AddSingleton<IVisualStudioNewProjectGuidProvider, VisualStudioNewProjectGuidProvider>()
+                .AddSingleton<ISolutionFolderPathOperator, SolutionFolderPathOperator>()
+                .AddSingleton<ISolutionFolderPathConventions, SolutionFolderPathConventions>()
                 ;
 
             return services;
