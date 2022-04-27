@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using System.Collections.Generic;
 
-using R5T.Cambridge.Types;
+using R5T.Cambridge.Types;using R5T.T0064;
 
 
 namespace R5T.Soltana.Default
-{
-    public class VisualStudioSolutionFileBasicOperator : IVisualStudioSolutionFileBasicOperator
+{[ServiceImplementationMarker]
+    public class VisualStudioSolutionFileBasicOperator : IVisualStudioSolutionFileBasicOperator,IServiceImplementation
     {
         public void AddSolutionFolder(SolutionFile solutionFile, string solutionFolder)
         {

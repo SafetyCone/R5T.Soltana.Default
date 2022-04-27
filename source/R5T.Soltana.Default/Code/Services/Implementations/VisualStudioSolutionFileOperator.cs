@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,12 +8,12 @@ using R5T.Hladir;
 using R5T.Koping;
 using R5T.Lombardy;
 using R5T.Magyar.Extensions;
-using R5T.Solgene;
+using R5T.Solgene;using R5T.T0064;
 
 
 namespace R5T.Soltana.Default
-{
-    public class VisualStudioSolutionFileOperator : IVisualStudioSolutionFileOperator
+{[ServiceImplementationMarker]
+    public class VisualStudioSolutionFileOperator : IVisualStudioSolutionFileOperator,IServiceImplementation
     {
         #region Static
 

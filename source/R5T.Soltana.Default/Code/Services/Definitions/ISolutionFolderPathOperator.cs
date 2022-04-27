@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
+using System.Collections.Generic;using R5T.T0064;
 
 
 namespace R5T.Soltana.Default
-{
-    public interface ISolutionFolderPathOperator
+{[ServiceDefinitionMarker]
+    public interface ISolutionFolderPathOperator:IServiceDefinition
     {
         IEnumerable<string> GetSolutionFolderPathParts(string solutionFolderPath);
 

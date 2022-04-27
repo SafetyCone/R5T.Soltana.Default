@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Soltana.Default.Constru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Soltana.Default.Testing", "R5T.Soltana.Default.Testing\R5T.Soltana.Default.Testing.csproj", "{486D51E5-6649-4243-835C-AAC72B7FA76D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{611A28AD-A655-4B3E-B4FD-F51A2316020B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{584064B0-D60D-459C-9C79-EFD65D48C4E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{486D51E5-6649-4243-835C-AAC72B7FA76D}.Release|x64.Build.0 = Release|Any CPU
 		{486D51E5-6649-4243-835C-AAC72B7FA76D}.Release|x86.ActiveCfg = Release|Any CPU
 		{486D51E5-6649-4243-835C-AAC72B7FA76D}.Release|x86.Build.0 = Release|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Release|x64.Build.0 = Release|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{584064B0-D60D-459C-9C79-EFD65D48C4E5} = {611A28AD-A655-4B3E-B4FD-F51A2316020B}
 	EndGlobalSection
 EndGlobal

@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-using R5T.Magyar.Extensions;
+using R5T.Magyar.Extensions;using R5T.T0064;
 
 
 namespace R5T.Soltana.Default
-{
-    public class SolutionFolderPathOperator : ISolutionFolderPathOperator
+{[ServiceImplementationMarker]
+    public class SolutionFolderPathOperator : ISolutionFolderPathOperator,IServiceImplementation
     {
         private ISolutionFolderPathConventions SolutionFolderPathConventions { get; }
 

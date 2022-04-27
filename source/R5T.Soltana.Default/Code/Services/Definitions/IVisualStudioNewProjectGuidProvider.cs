@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Soltana.Default
-{
-    public interface IVisualStudioNewProjectGuidProvider
+{[ServiceDefinitionMarker]
+    public interface IVisualStudioNewProjectGuidProvider:IServiceDefinition
     {
         Guid GetNewVisualStudioProjectGuid();
     }
