@@ -349,7 +349,7 @@ namespace R5T.Soltana.Default
                 {
                     // Remove project nestings where the solution folder is a parent
                     var projectNestingsToRemove = nestedProjectsGlobalSection.ProjectNestings.Where(x => x.ParentProjectGUID == solutionFolderToRemove.ProjectGUID).ToArray();
-                    nestedProjectsGlobalSection.ProjectNestings.RemoveAll(projectNestingsToRemove);
+                    nestedProjectsGlobalSection.ProjectNestings.RemoveRange(projectNestingsToRemove);
 
                     // Remove the solution folder project reference.
                     solutionFile.SolutionFileProjectReferences.Remove(solutionFolderToRemove);
